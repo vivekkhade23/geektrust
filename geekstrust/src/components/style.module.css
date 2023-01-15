@@ -1,0 +1,188 @@
+.subBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.mainBox {
+    padding: 15px;
+    font-family: 'Manrope', sans-serif;
+    background-color: #f1f0f0;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.display{
+    display: flex;
+}
+
+.cart {
+    width: 35px;
+    height: 30px;
+    background-color: #c3c2c2;
+}
+
+.cartspan{
+    width: 15px;
+    height: 30px;
+    background-color: #c3c2c2;
+}
+@media (max-width:600px) {
+    .products {
+        display: none;
+    }
+}
+
+.main{
+    display:  flex;
+
+}
+
+.filterBox {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    margin-left: 45px;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #47546c;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+@media (max-width:750px) {
+    .filterBox{
+       display: none;
+    }
+   }
+
+
+.label {
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.checkbox {
+    width: 100px;
+}
+
+.ProdBox {
+    margin-left: 35px;
+    height: 72%;
+    width: 80%;
+    padding: 15px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 25px;
+}
+
+.ProdImage {
+    width: 100%;
+
+    height: 50%;
+}
+
+.cartbox {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 35px;
+
+}
+
+.addtoCart {
+height: 25px;
+width: 70%;
+    background-color: black;
+}
+
+.Newbutton {
+    background-color: black;
+    height: 25px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Newbuttonstack {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+
+}
+.newcartbox{
+    gap: 35px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+
+}
+.cartmainbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cartboximage{
+    width: 75px;
+    margin: 10px;
+    padding: 5px;
+  height: 45px;
+}
+.delete{
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 75px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartQty{
+    display: flex;
+    align-items: center;
+    background-color: #f1f0f0;
+    width: 75px;
+    color: #c3c2c2;
+    height: 20px;
+    justify-content: center;
+}
+.cartboxname{
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    color: #47546c;
+}
+.cartboxprice{
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+    justify-content: center;
+    align-self: flex-start;
+    font-size: 12px;
+    line-height: 24px;
+    align-items: center;
+    color: #47546c;
+}
